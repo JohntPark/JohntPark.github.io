@@ -238,3 +238,16 @@ $(function () {
 	});
 
 });
+
+var slideIndex = 0;
+imageSequence();
+function imageSequence(){
+	var slides = document.getElementsByClassName("imageSequence")
+	for(var i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";
+	}
+	slideIndex++;
+	if(slideIndex > slides.length){slideIndex = 1}
+	slides[slideIndex-1].style.display = "block";
+	setTimeout(imageSequence, 2000);
+} 

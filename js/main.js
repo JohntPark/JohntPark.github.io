@@ -249,5 +249,5 @@ function imageSequence(){
 	slideIndex++;
 	if(slideIndex > slides.length){slideIndex = 1}
 	slides[slideIndex-1].style.display = "block";
-	setTimeout(imageSequence, 2000);
+	setTimeout(imageSequence, 2200);
 } 

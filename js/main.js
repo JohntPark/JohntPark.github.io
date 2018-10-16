@@ -249,5 +249,19 @@ function imageSequence(){
 	slideIndex++;
 	if(slideIndex > slides.length){slideIndex = 1}
 	slides[slideIndex-1].style.display = "block";
-	setTimeout(imageSequence, 2200);
+	setTimeout(imageSequence, 2000);
 } 
+
+var slideIndex1 = 0;
+imageSequence1();
+function imageSequence1(){
+	var slides = document.getElementsByClassName("imageSequence1")
+	for(var i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";
+	}
+	slideIndex1++;
+	if(slideIndex1 > slides.length){slideIndex1 = 1}
+	slides[slideIndex1-1].style.display = "block";
+	setTimeout(imageSequence1, 2000);
+} 
+

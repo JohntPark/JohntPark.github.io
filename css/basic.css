@@ -755,12 +755,8 @@ td {
 	height: 50px;
 	width: 50px;
 }
-.custom-icon-api {
-	height: 50px;
-	width: 75px;
-	margin-left: -13px;
-}
-.imageSequence{
+
+#imageSequence{
 	background: lightgrey;
 }
 

@@ -242,7 +242,7 @@
 
 /* 2. Section */
 .section {
-	padding: 100px 0;
+	padding: 120px 0;
 	position: relative;
 }
 
@@ -371,7 +371,7 @@
 
 /* 5. Services */
 .section.services {
-	padding: 130px 0 90px 0;
+	padding: 140px 0 90px 0;
 }
 
 @media (max-width: 1079px) {
@@ -427,7 +427,7 @@
 
 /* 6. Portfolio */
 .section.works {
-	padding: 120px 0 100px 0;
+	padding: 140px 0 100px 0;
 }
 
 @media (max-width: 1079px) {

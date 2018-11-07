@@ -249,7 +249,7 @@ function imageSequence(){
 	slideIndex++;
 	if(slideIndex > slides.length){slideIndex = 1}
 	slides[slideIndex-1].style.display = "block";
-	setTimeout(imageSequence, 2000);
+	setTimeout(imageSequence, 1700);
 } 
 
 var slideIndex1 = 0;
@@ -262,7 +262,7 @@ function imageSequence1(){
 	slideIndex1++;
 	if(slideIndex1 > slides.length){slideIndex1 = 1}
 	slides[slideIndex1-1].style.display = "block";
-	setTimeout(imageSequence1, 2000);
+	setTimeout(imageSequence1, 1400);
 } 
 
 var slideIndex2 = 0;
@@ -275,18 +275,5 @@ function imageSequence2(){
 	slideIndex2++;
 	if(slideIndex2 > slides.length){slideIndex2 = 1}
 	slides[slideIndex2-1].style.display = "block";
-	setTimeout(imageSequence2, 2000);
-} 
-
-var slideIndex3 = 0;
-imageSequence3();
-function imageSequence3(){
-	var slides = document.getElementsByClassName("imageSequence3")
-	for(var i = 0; i < slides.length; i++) {
-		slides[i].style.display = "none";
-	}
-	slideIndex3++;
-	if(slideIndex3 > slides.length){slideIndex3 = 1}
-	slides[slideIndex3-1].style.display = "block";
-	setTimeout(imageSequence3, 2000);
+	setTimeout(imageSequence2, 1400);
 } 

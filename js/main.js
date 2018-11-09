@@ -277,3 +277,16 @@ function imageSequence2(){
 	slides[slideIndex2-1].style.display = "block";
 	setTimeout(imageSequence2, 1400);
 } 
+
+var slideIndex3 = 0;
+imageSequence3();
+function imageSequence3(){
+	var slides = document.getElementsByClassName("imageSequence3")
+	for(var i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";
+	}
+	slideIndex3++;
+	if(slideIndex3 > slides.length){slideIndex3 = 1}
+	slides[slideIndex3-1].style.display = "block";
+	setTimeout(imageSequence3, 1400);
+} 

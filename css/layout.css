@@ -242,13 +242,13 @@
 
 /* 2. Section */
 .section {
-	padding: 120px 0;
+	padding: 140px 0;
 	position: relative;
 }
 
 @media (max-width: 1079px) {
 	.section {
-		padding: 120px 0;
+		padding: 140px 0;
 	}
 
 }
@@ -267,7 +267,7 @@
 
 @media (max-width: 1079px) {
 	.section.gray {
-		padding: 120px 0;
+		padding: 140px 0;
 	}
 
 }
@@ -315,11 +315,11 @@
 .section.started .st-title,
 .section.started .typed-title,
 .section.started .typed-cursor {
-	margin: 20px 0 10px 0;
+	margin: 0px 0 100px 0;
 	font-size: 7.91666667vw;
 	font-family: 'Montserrat', helvetica;
 	line-height: 7.91666667vw;
-	color: black;
+	color: white;
 	font-weight: 400;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
@@ -376,7 +376,7 @@
 
 @media (max-width: 1079px) {
 	.section.services {
-		padding: 120px 0 90px 0;
+		padding: 140px 0 90px 0;
 	}
 
 }
@@ -432,7 +432,7 @@
 
 @media (max-width: 1079px) {
 	.section.works {
-		padding: 120px 0 90px 0;
+		padding: 140px 0 90px 0;
 	}
 
 }

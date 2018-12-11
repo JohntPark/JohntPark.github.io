@@ -289,4 +289,17 @@ function imageSequence3(){
 	if(slideIndex3 > slides.length){slideIndex3 = 1}
 	slides[slideIndex3-1].style.display = "block";
 	setTimeout(imageSequence3, 1400);
+}
+
+var slideIndex4 = 0;
+imageSequence4();
+function imageSequence4(){
+	var slides = document.getElementsByClassName("imageSequence4")
+	for(var i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";
+	}
+	slideIndex4++;
+	if(slideIndex4 > slides.length){slideIndex4 = 1}
+	slides[slideIndex4-1].style.display = "block";
+	setTimeout(imageSequence4, 1400);
 } 
